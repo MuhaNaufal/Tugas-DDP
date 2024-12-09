@@ -19,5 +19,17 @@ class gempa:
 # gempa().skala = 2
 # gempa().dampak()
 
-gempa2 = gempa(2, "sumbawa")
+gempa1 = gempa(1, "banten")
+gempa1.dampak()
+
+gempa2 = gempa(2, "palu")
 gempa2.dampak()
+
+gempa3 = gempa(3, "cianjur")
+gempa3.dampak()
+
+gempa4 = gempa(4, "jayapura")
+gempa4.dampak()
+
+gempa5 = gempa(5, "garut")
+gempa5.dampak()
